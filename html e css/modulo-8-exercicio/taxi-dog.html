@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Pet Store</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"> 
+
+		<script src="https://kit.fontawesome.com/5882737723.js" crossorigin="anonymous"></script>
+		
+		<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="./css/layout.css">
+		
+	</head>
+	<body>
+
+		<header>
+			 <div class="informacoes">
+			 	<div class="icones">
+					<div class="sociais">
+						 <p>Redes Sociais:</p>
+						<i class="fa fa-linkedin-square"></i>
+						<i class="fa-brands fa-facebook-square"></i>
+						<i class="fa-brands fa-instagram-square"></i>
+						<i class="fa-brands fa-twitter-square"></i>
+						<i class="fa-brands fa-pinterest-square"></i>
+
+					</div>
+				</div>
+				<div class="icones">
+					<div class="e-mail">
+						<p>contato@petstore.com.br</p>
+						<i class="fa-solid fa-envelope"></i>
+						
+					</div>	
+			    </div>
+			    <div class="icones">
+			    	<div class="fone">
+			    		<i class="fa fa-square-phone"></i>  
+			    		<p>  11 3280 2122 </p>
+			    	</div>	
+			    </div>
+
+			 </div>
+		</header>
+
+
+		<section>
+			<nav>
+				<img src="./images/logo-pet.jpg" alt="logo">
+				<ul class="navegacao">
+					<li><a href="index.html">Home</a></li>
+					<li ><a href="banho.html">Banho e Tosa | SPA</a></li>
+					<li><a href="loja.html">Loja</a></li>
+					<li  id="active"><a href="taxi-dog.html">Taxi Dog</a></li>
+				</ul>
+			</nav>
+			<article>
+				<div class="banner-principal">
+					<img src="./images/banner-taxi.jpg" alt="Banner Taxi dog">
+				</div>
+
+			</article>
+			<article>
+				<form>
+					<div class="agenda-taxi">		
+						<div class="taxi-layout">
+							<label>Informe o nome do Proprietário</label>
+							<input type="text" name="proprietario" placeholder="Digite o nome do proprietário do pet">
+						</div>		
+						<div class="taxi-layout">
+							<label>Digite o nome do Pet</label>
+							<input type="text" name="bairro" placeholder="Digite o nome do pet">
+						</div>		
+					</div>
+					<div class="agenda-taxi">
+						<div class="taxi-layout">
+							<label>Informe a epécie do seu Pet</label>
+							<input type="radio" name="pet"> Cachorro
+							<input type="radio" name="pet"> Gato
+						</div>	
+						<div class="taxi-layout">
+							<label for="porte">Informe o Tamanho de seu pet</label>
+							<select>
+								<option value="pequeno">Pequeno</option>
+								<option value="medio">Médio</option>
+								<option value="grande">Grande</option>
+								<option value="gigante">Gigante</option>
+							</select> 
+						</div>
+					</div>
+					<div class="agenda-taxi">		
+						<div class="taxi-layout">
+							<label>Informe a data</label>
+							<input type="date" name="data">
+						</div>	
+						<div class="taxi-layout">
+							<label>Informe o Horário</label>
+							<input type="time" name="horario">
+						</div>
+					</div>
+					<div class="agenda-taxi">		
+						<div class="taxi-layout">
+							<label>Informe o endereço</label>
+							<input type="text" name="endereco" placeholder="Digite o endereço">
+						</div>		
+						<div class="taxi-layout">
+							<label>Informe o Bairro</label>
+							<input type="text" name="bairro" placeholder="Digite o Bairro">
+						</div>		
+					</div>
+					<div class="agenda-taxi">
+						<div class="botao-taxi">
+							<input type="submit" name="agendar">
+						</div> 	
+					</div>
+				</form>
+				
+			</article> 
+			 
+		 
+	 	</section>
+				<a id="topo" href="#">&#9650;</a>
+		<footer>
+			<div class="informacoes">
+			 	<div class="icones">
+					<div class="sociais">
+						  <p>  <img src="./images/logo.jpg" alt="logo amigos bichos">  </p>
+					</div>
+				</div>
+			    <div class="icones">
+			    	<div class="e-mail">
+			    		<p>Rodrigo Pinto</p>	  
+			    		<p><i class="fa-regular fa-copyright"></i></i></p>    
+			    	</div>	
+			    </div>
+			     <div class="icones">
+			    	<div class="fone-footer">
+						<i class="fa fa-linkedin-square"></i>
+						<i class="fa-brands fa-facebook-square"></i>
+						<i class="fa-brands fa-instagram-square"></i>
+						<i class="fa-brands fa-twitter-square"></i>
+						<i class="fa-brands fa-pinterest-square"></i>
+			    	</div>	
+			    </div>
+			 </div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,464 @@
+/* 
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+  font-family: sans-serif;
+  color: #333333;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+	background-color: #e0e0e0;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem; 
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66F;
+}
+
+header{
+  width: 100%;
+  background-color: #74cee0;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;  
+  display: flex;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+header p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+section {
+  width: 100%; 
+  background-color: #f4f4f4;
+}
+
+.width-100 {
+  width: 100%;
+  width: 100vw; /* viewport width*/
+  background-color: aqua;
+  padding: 20px 0;
+  height: 400px;
+}
+
+nav {
+  background-color: #f4f4f4;
+  width: 20%;
+  float: left;
+  display: table;
+  height: 100%;
+}
+
+a {
+  color: #555555;
+  text-decoration: none; /* o padrão é underline */
+  font-size: 2rem;
+  display: block;
+}
+
+h2 {
+  font-weight: 400;
+  font-family: 'Limelight', cursive;
+}
+
+nav img {
+  width: 100%;
+}
+
+ul {
+  width: 100%;    
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li {
+  letter-spacing: 0.01rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+ul li {
+  border-bottom: 0.1rem solid #ddd;     
+}
+
+.navegacao li a {
+  color: #444;
+  font-size: 2rem;
+  padding: 2.6rem;
+}
+
+.navegacao li a:hover {
+  background-color: #74cee0;
+  color: #fff;
+  height: 100%;
+}
+
+#active a {
+  background-color: #74cee0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+article {
+  background-color: #f4f4f4;
+  width: 80%;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.banner-principal {
+  width: 100%;
+  height: auto;
+}
+
+.banner-principal img {
+  width: 100%;
+}
+
+.informacoes {
+  display: flex;
+  width: 100%;
+}
+
+.icones {
+  width: 100%;
+  height: auto;
+  padding-right: 4px;
+}
+
+.icones h3 {
+  width: 100%;
+  font-size: 12px;
+  
+}
+.icones p {
+  float: left;
+  font-weight: bold;
+}
+
+.sociais p {
+  margin-left: 20px;
+  margin-top: 3px;
+  padding-top: 2px;
+}
+
+.sociais i {
+  font-size: 18px;
+  padding: 2px;
+  padding-left: 6px;
+  float: left;
+  margin-top: 3px;
+}
+.sociais i:hover {
+  color: #ccc;
+}
+
+.e-mail {
+  display: inline-block;  
+  margin-top: 3px;
+}
+
+.e-mail i {
+  padding: 2px;
+  padding-right: 4px;
+  float: left;
+  font-size: 18px;
+}
+
+.e-mail p {
+  font-size: 12px;
+  padding: 2px;
+  float: right;
+}
+
+.fone {
+  display: inline-block;
+  float: right;
+}
+
+.fone img {
+  padding: 2px;
+  float:left;
+
+}
+
+.fone p {
+  font-size: 12px;
+  float: right;
+  margin: 2px;
+  padding-right: 16px;
+  padding-top: 4px;
+}
+
+.fone i {
+  font-size: 18px;
+  padding: 5px;
+}
+ .chamada {
+  text-align: center;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: auto;
+ }
+
+ .chamada h2 {
+  padding-top: 14px;
+  font-weight: bold;
+  color: #777; 
+  font-size: 2rem;
+ }
+
+ .chamada p {
+   text-align: center;
+   font-family: arial, helvetica, sans-serif; 
+   font-size: 16px;
+   color: #888;
+   padding: 0rem 6rem 2rem 6rem;
+ }
+
+ .descricao-servicos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #f0f0f0;
+}
+
+ .servicos {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  text-align: center;   
+}
+
+.servicos figure {
+  width: 100%;
+}
+
+ .servicos img {
+  width: 20rem;
+  height: 20rem;
+  margin: 2rem; 
+  border-radius: 50%;  
+}
+
+.servicos figcaption {
+  font-size: 16px;
+  color: #666;
+}
+
+.servicos figcaption a {
+  background-color: #74cee0;
+  color: #fff;
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  margin-top: 8px;
+  margin-left: 80px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.servicos figcaption a:hover {
+  background-color: #fff;
+  color: #74cee0;
+  font-weight: bold;
+}
+
+.servicos_desc {
+  padding: 1rem;         
+  background-color: #f1f1f1;
+  margin: 1.8rem;
+  width: 33.33%;
+  text-align: center;
+}
+
+.servicos_desc img {
+  padding: 2rem;
+  width: 100%;
+}
+
+
+.servicos_desc p {
+  color: #666;
+  text-align: justify;
+  padding: 5px 10px;
+  font-size: 1.4rem;
+}
+
+.loja {
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px; 
+}
+
+.loja_desc img {
+  width: 200px;
+  margin-left: 30px;
+
+}
+
+.loja_desc h3 {
+  color: #666;
+  text-align: center;
+  padding: 12px;
+}
+
+.loja_desc a:hover {
+  background-color: #74cee0;
+  color: #333;
+  padding: 10px;
+}
+
+.loja_desc p {
+  color: #666;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.4rem;
+}
+
+.loja-chamada {
+  background-color: #eee;
+  color: #666;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  height: 30px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+form {
+  background-color: #e0e0e0;
+  float: right;
+  height: auto;
+  width: 100%;
+}
+
+.agenda-taxi {
+  width: 100%;
+  display: flex;
+}
+
+.taxi-layout {
+  width: 50%;
+  margin: 20px 40px;
+  font-size: 14px;
+}
+
+.taxi-dados {
+  width: 33,33%;
+  margin: 20px 40px;
+  font-size: 14px;
+}
+
+.botao-taxi {
+  width: 50%;
+  margin: 20px 40px;
+  font-size: 14px;
+  border-radius: 8%;
+}
+
+.botao-taxi input:hover {
+  background-color: #74cee0;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8%;
+}
+
+footer {
+  width: 100%;
+  background-color: #74cee0;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  width: 100%;
+  padding-top: 8px;
+  text-align: center;
+  color: white;
+}
+
+footer img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+footer .e-mail p{
+  margin-top: 28px;
+  font-size: 14px;
+}
+
+.fone-footer {
+  margin-right: 36px;
+  margin-top: 25px;
+}
+
+.fone-footer i {
+  font-size: 26px;
+  float: right;
+  margin: 1px;
+  padding-right: 16px;
+}
+
+.fone-footer i:hover {
+  color: #666;
+}
+
+#topo {
+  color: white;
+  background-color: #74cee0;
+  padding: 10px;
+  font-size: 18px;
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  border-radius: 5%;
+  box-shadow: 3px 3px 10px #333;
+}
+
+label {
+  font-size: 18px;
+} 
+
+[type="text"], [type="email"], textarea, label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  padding: 1rem;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div img {
+  width: 100%;
+}
