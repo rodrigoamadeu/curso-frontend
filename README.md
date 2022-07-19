@@ -23,6 +23,18 @@ Arquivo B | Versão 1 | Versão 2
 ## Comits
 Informação de alteração
 - após testado todo seu código
+- git add *
+- git commit -m "mensagem do commit"
+- git push (enviar alterações para o repositório GitHub)
+- git pull (puxar / trazer alterações do GitHub para sua máquina)
 
 ## Gitflow
 Fluxo do Git
+
+### Branchs
+são ramificações / versões paralelas
+
+- main / master
+- develop
+- DOD Definition of Done: critérios de aceite
+-versionamento 1.0.0
