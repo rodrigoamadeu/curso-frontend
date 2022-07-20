@@ -1,58 +1,63 @@
-# curso-frontend
+# Curso Front-end
 #### EBAC
-##### Curso Desenvolvedor Full Stack Java
+
 # GIT
-
 ## Conceitos de versionamento
-- Histórico
-- Controle de versão
-- Quem alterou
-- Quando alterou
-- Todos os arquivos
-- Evolução contínua
+ - Histórico
+ - Controle de versão
+ - Quem alterou
+ - O quê alterou
+ - Quando alterou
+ - Todos os arquivos
+ - Evolução contínua
 
-Arquivo A | Versão 1 | Versão 2
-Arquivo B | Versão 1 | Versão 2
+ Arquivo A  | Versão 1 | Versão 2
+ Arquivo B  | Versão 1 | Versão 2
 
-## Instalação do Git
+ ## Instalação do Git
+https://git-scm.com/
 
-## Criar conta no Github
+- Windows: https://git-scm.com/download/win
+- Linux (apt-get): sudo apt-get install git
+- Mac (brew): brew install git
 
-## Clonar o projeto
+ ## Criar conta no GitHub
 
-## Comits
-Informação de alteração
-- após testado todo seu código
-- git add *
-- git commit -m "mensagem do commit"
-- git push (enviar alterações para o repositório GitHub)
-- git pull (puxar / trazer alterações do GitHub para sua máquina)
+ ## Clonar o projeto
+ git clone https://github.com/cavalcantemmarcelo/curso-frontend.git
 
-## Gitflow
+ ## Commits
+ Informação de alteração
+ - após testado todo seu código
+ > git add *
+ > git commit -m "mensagem"
+ > git push (enviar alterações para o repositório GitHub)
+ > git pull (puxar / trazer alterações do GitHub para sua máquina)
+## GitFlow
 Fluxo do Git
 
 ### Branchs
 são ramificações / versões paralelas
 
-- main / master
-- develop
+- main / master (vai para produção, quando o projeto é publicado)
+- develop 
 - DOD Definition of Done: critérios de aceite
--versionamento 1.0.0
+- versionamento 1.0.0
 
-git checkout -b dev (cria um branch)
-git checkout master (mudar de branch)
+> git checkout -b dev (cria uma branch)
+> git checkout master (mudar de branch)
 
-### merge 
+### Merge
 Mescla de branchs
 Você pode precisar resolver conflitos manualmente
 
-git merge main
-
+> git merge main 
 ### Pull Requests
 Mescla de branchs no repositório
-Permite code review 
-O repositório resolve os conflitos automaticamente
+Permite code review
+O respositório resolve os conflitos automaticamente
+
 
 ### configura o GitFlow
-git flow init
-git flow feature start {nome-da-feature}
+> git flow init
+> git flow feature start {nome-da-feature}
