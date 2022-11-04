@@ -1,0 +1,781 @@
+
+* {
+	box-sizing:border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /*equivale 10 px*/
+}
+
+body {
+	background-color: white;
+}
+
+header {
+	background: url(../images/header-back.jpg) center center;
+	width: 100%;
+	height: 100rem;
+}
+
+section {
+	width: 100%;
+}
+
+article {
+	width: 100%;
+}
+
+nav {
+	float: right;
+	padding: 2.5rem;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.navegacao {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-top: 10px;
+}
+
+.navegacao a {
+	color: #fff;
+	text-decoration: none;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.navegacao a:hover {
+	background-color: rgba(255,255,255, 0.5);
+	color: #333;
+	border-radius: 10%;
+}
+
+
+header h2 {
+	font-size: 5rem;
+	color: #fff;
+	margin-top: 10rem;
+	margin-bottom: 2rem;
+	text-align: center;
+	width: 100%;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+#banner-paragrafo {
+	font-size: 3rem;
+	color: #fff;
+	text-align: center;
+	margin-top: 6rem;
+	padding: 0 30%; 
+}
+
+.logo {
+	width: 5%;
+}
+
+.logo img {
+	width: 100%;
+	height: auto;
+	margin: 2rem 4rem;
+} 
+
+.conteudo {
+	width: 100%;
+	position: absolute;
+	margin-top: 14rem;
+}
+
+.conteudo-banner {
+	width: 33.33%;
+	display: block;
+	float: left;
+	padding: 2rem;
+}
+
+#app-store {
+	margin-top: 32rem;
+	float: right;
+	width: 18rem;
+}
+
+#app-store img {
+	width: 100%;
+}
+
+#google { 
+	margin-top: 32rem;
+	width: 17rem;
+}
+
+#google img {
+	width: 100%;
+}
+
+.iphone {
+	width: 100%;
+	margin-top:1rem;
+}
+
+.iphone {
+	filter: drop-shadow(1rem 1rem 1.2rem #333);
+}
+.iphone img {
+	width: 100%;
+	height: auto;
+	filter: grayscale(100%) blur(10px) brightness(60%);
+}
+
+.iphone img:hover{
+	filter: grayscale(0%);
+}
+
+.coluna {
+	width: 33.33%;
+	height: auto;
+	float: left;
+	padding: 6% 0 14% 0;
+	text-align: center;
+}
+
+
+.coluna p {
+	padding: 1% 16%;
+	font-size: 1.8rem;
+	color: #555;
+	font-family: Helvetica;
+}
+
+.coluna h3 {
+	padding: 1rem;
+	font-size: 3rem;
+	font-family: Arial;
+	color: #333;
+}
+
+.coluna i {
+	width: 20%;
+	font-size: 7rem;
+	color: purple;
+}
+
+#notifica {
+	padding-top: 20rem; 
+	padding-bottom: 7rem;
+}
+
+article h2 {
+	display: none;
+}
+
+.cont-app {
+	width: 50%;
+	height: 580px;
+	display: block;
+	float: left;
+	margin-bottom: 6rem;
+}
+
+.cont-app img {
+	width: 100%;
+	padding: 2rem 12rem;	
+}
+
+.cont-app-coluna {
+	width: 100%;
+}
+
+.cont-app-coluna h3 {
+	font-size: 4.5rem;
+	color: #555;
+	font-family: arial;
+	padding-bottom: 2rem;
+
+}
+
+.cont-app-coluna p {
+	width: 100%;
+	font-size: 2.5rem;
+	color: #555;
+	font-family: Helvetica;
+	padding-top: 1.6rem;
+}
+
+.app-i {
+	width: 15%;
+	float: left;
+	color: #555;
+	font-size: 7rem;
+	color: purple;
+	padding-top: 2.5rem;
+}
+
+.app-conteudo {
+	width: 100%;
+	margin-bottom: 5rem;
+	margin-top: 7rem;
+}
+
+.app-conteudo h4 {
+	font-size: 2.5rem;
+	color: #555;
+	font-family: arial;
+}
+
+.app-conteudo p {
+	font-size: 2rem;
+	font-family: arial;
+	padding-right: 1rem;
+	padding-top: 2rem;
+}
+
+.video {
+	width: 50%;
+	height: 350px;
+	float: left;
+	display: block;
+	margin-bottom: 6rem;
+
+}
+
+.video-iphone {
+	display: flex;
+	padding: 2rem;
+}
+
+.video-iphone img {
+	width: 100%;
+	position: relative;
+	padding-top: 3rem;
+}
+
+.video-iphone iframe {
+	position: absolute;
+	padding-left: 0;
+	width: 27.9%;
+	height: 19.4rem;
+	margin-left: 11.8rem;
+	margin-top: 3.90rem;
+	border-radius: 5%;
+}
+
+.video h3 {
+	padding: 1rem 2rem;
+	font-size: 3rem;
+	font-family: Arial;
+	color: #333;
+}
+
+.video p {
+	font-size: 2rem;
+	font-family: arial;
+	color: #555;
+	padding: 2rem;
+}
+
+hr {
+	border: 0.5px solid #eee;
+	width: 84%; 
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 6rem;
+	filter: drop-shadow(0.3rem 0.3rem 0.4rem #ccc) blur(1px);
+}
+
+.falando-sobre {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+}
+
+article h3 {
+	font-size: 3rem;
+	font-family: arial;
+	color: #999;
+	text-align: center;
+}
+
+.sobre {
+	width: 50%;
+	height: auto;
+	margin-bottom: 2rem;
+}
+
+.sobre img {
+	width: 75%;
+	padding-left: 6rem;
+	filter: grayscale(100%) blur(0.5px);
+}
+.sobre img:hover {
+	filter: grayscale(0%);
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	padding: 0rem 2rem;
+}
+
+.contato {
+	width: 100%;
+	display: flex;
+}
+
+.footer-contato {
+	width: 33.33%;
+	display: block;
+}
+
+.footer-contato h3 {
+	font-size: 3rem;
+	font-family: arial;
+	color: #999;
+	margin: 2rem 0rem 4rem 6rem;
+}
+
+.footer-contato p {
+	font-size: 1.8rem;
+	color: #ccc;
+	font-family: arial;
+}
+
+.contato-end {
+	display: flex;
+	margin-top: 3rem;
+}
+
+.contato-end i {
+	font-size: 2.2rem;
+	padding: 0 2rem;
+	
+	color: purple;
+}
+
+.footer-sociais {
+	width: 33.33%;
+	height: auto;
+	display: block;
+	position: relative;
+}
+
+.footer-sociais-face {
+	width: 100%;
+	position: absolute;
+	margin-top: 6rem;
+	margin-left: 23rem;
+}
+
+
+.footer-sociais-google{
+	width: 100%;
+	position: absolute;
+	margin-top: 6rem;
+	margin-left: 15rem;
+}
+
+.footer-sociais-twitter {
+	width: 100%;
+	position: absolute;
+	margin-top: 14rem;
+	margin-left: 23rem
+}
+
+.footer-sociais-youtube {
+	width: 100%;
+	position: absolute;
+	margin-top: 14rem;
+	margin-left: 15rem;
+
+}
+
+.footer-sociais img {
+	width: 60px;
+}
+
+.footer-mapa  {
+	width: 33.33%;
+}
+
+.footer-mapa iframe {
+	width: 100%;
+	padding: 2rem;
+}
+
+footer h4 {
+	margin-top: 4rem;
+	font-size: 1.5rem;
+	font-family: arial;
+	color: #999;
+	text-align: center;
+}
+
+/* mobile first */
+	@media (max-width: 768px) {
+		header {
+			width: 100%;
+			height: 55rem;
+		}
+		header h2 {
+			font-size: 2.5rem;
+			color: #fff;
+			margin-top: 1.5rem;
+			margin-bottom: 1rem;
+			text-align: center;
+			width: 100%;
+			padding-right: 20%;
+			padding-left: 20%;
+		}
+		.conteudo {
+			width: 100%;
+			margin-top: 3rem;
+		} 
+		#app-store {
+			width: 50%;
+    		margin-top: 14rem;
+    		margin-left: 1rem;
+    		float: right;
+    	}	
+    	#google {
+    		width: 50%;
+		    margin-top: 14rem;
+		}
+		#notifica {
+		    padding-top: 14rem;
+		    padding-bottom: 2rem;
+		}
+		.coluna h3 {
+		    padding: 1rem;
+		    font-size: 2rem;
+		    font-family: Arial;
+		    color: #333;
+		}
+		.cont-app-coluna h3 {
+		    font-size: 2.5rem;
+		    color: #555;
+		    font-family: arial;
+		    padding-bottom: 0;
+		}
+		.cont-app-coluna p {
+		    width: 100%;
+		    font-size: 1.5rem;
+		    color: #555;
+		    font-family: Helvetica;
+		    padding-top: 1.6rem;
+		}
+		.cont-app {
+		    width: 50%;
+		    height: auto;
+		}
+		.cont-app img {
+		    padding: 0 2rem;
+		    width: 100%;
+		}
+		.app-conteudo {
+		    width: 100%;
+		    margin-bottom: 2rem;
+		    margin-top: 4rem;
+		}
+		.app-i {
+		    width: 15%;
+		    float: left;
+		    color: #555;
+		    font-size: 6rem;
+		    color: purple;
+		    padding-top: 4.5rem;
+		    margin-right: 2rem;
+		}
+		.video {
+		    width: 100%;
+   			height: auto;
+   		    float: left;
+  		    display: block;
+  		    margin-bottom: 1rem;
+		}
+		.video-iphone iframe {
+		    position: absolute;
+		    padding-left: 0;
+		    width: 43rem;
+		    height: 22.4rem;
+		    margin-left: 13.6rem;
+		    margin-top: 3.9rem;
+		    border-radius: 5%;
+		}
+		.footer-sociais-face {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 4rem;
+		    margin-left: 13rem;
+		}
+		.footer-sociais-google {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 4rem;
+		    margin-left:5rem;
+		}
+		.footer-sociais-twitter {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 12rem;
+		    margin-left: 13rem;
+		}
+		.footer-sociais-youtube {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 12rem;
+		    margin-left:5rem;
+		}    
+
+}
+
+	@media (max-width: 420px) {
+		header {
+			width: 100%;
+			height: 35rem;
+			margin-bottom: 4rem;
+		}
+		
+		header h2 {
+			font-size: 2.5rem;
+			color: #fff;
+			margin-top: 1.5rem;
+			margin-bottom: 1rem;
+			text-align: center;
+			width: 100%;
+			padding-right: 20%;
+			padding-left: 20%;
+		}
+
+		nav {
+			padding: 1rem 2rem 0 0;
+
+		}
+		.navegacao {
+			font-size: 12px;
+			
+		}
+		.logo {
+			width: 5%;
+			padding-top: .5rem;
+		}
+		#banner-paragrafo {
+			font-size: 1.8rem;
+		    color: #fff;
+		    text-align: center;
+		    margin-top: 2rem;
+		    padding: 0 15%;
+		}
+		.conteudo {
+			width: 100%;
+			margin-top: 1rem;
+		} 
+		#app-store {
+			width: 60%;
+    		margin-top: 8rem;
+    		margin-left: 1rem;
+    		float: right;
+    	}	
+    	#google {
+    		width: 60%;
+		    margin-top: 8rem;
+		}
+		.coluna {
+			width: 100%;
+			height: auto;
+			text-align: center;
+			padding: 1.5rem 0 ;
+		}
+		.cont-app {
+			width: 100%;
+			height: auto;
+			padding: 2rem;
+			margin: 0;
+
+		}
+		.cont-app img {
+			width: 100%;
+			padding: 0 20%;
+		}
+		.cont-app-coluna h3 {
+			font-size: 2.2rem;
+			color: #777;
+			padding: 0;
+			margin: 0;
+		}
+		.cont-app-coluna p {
+			font-size: 1.6rem;
+			color: #999;
+			padding: 0 2rem;
+			text-align: center;
+		}
+		.app-conteudo h4 {
+		    font-size: 1.8rem;
+		    color: #777;
+		    font-family: arial;
+		    text-align: center;
+		    margin: 1rem 0 2rem 0; 
+		}
+		.app-i {
+		    width: 100%; 
+		    color: #555;
+		    font-size: 5rem;
+		    color: purple;
+		    text-align: center;
+		    padding: 0;
+		    padding-bottom: 1rem;
+		}
+		#notifica {
+			padding-top: 0;
+			padding-bottom: .2rem;
+		}
+		hr {
+		    margin-bottom: 2rem;
+		}
+		.app-conteudo {
+		    width: 100%;
+		    margin-bottom: 1rem;
+		    margin-top: 2rem;
+		}	
+
+		.video {
+		    width: 100%;
+		    height: auto;
+		    margin-bottom: 0rem;
+		}
+		.video h3 {
+		    padding: 1rem;
+		    font-size: 2rem;
+		    font-family: Arial;
+		    color: #777;
+		    text-align: center;
+		}    
+		.video p {
+		    font-size: 1.6rem;
+		    font-family: arial;
+		    color: #999;
+		    text-align: center;
+		}
+		.video-iphone {
+		    padding: 0 1rem;
+		}
+		.video-iphone img {
+		    width: 100%;
+		    position: relative;
+		    padding: 0 0 2rem 0;
+		}
+
+		.video-iphone iframe {
+		    position: absolute;
+		    padding-left: 0;
+		    width: 56%;
+		    height: 23%;
+		    margin-left: 7.5rem;
+		    margin-top: .4rem;
+		    border-radius: 5%;
+		}
+		.falando-sobre {
+		    display: block;
+		}
+		.sobre {
+			width: 100%;
+			padding: 2rem 3rem 1rem 4rem;
+			margin: 0;
+		}
+		.footer-contato {
+			width: 100%;
+		}
+		.contato {
+			width: 100%;
+			display: block;
+		}
+		
+		.footer-sociais-face {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 4rem;
+		    margin-left: 20rem;
+		}
+		.footer-sociais-google {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 4rem;
+		    margin-left: 12rem;
+		}
+		.footer-sociais-twitter {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 12rem;
+		    margin-left: 20rem;
+		}
+		.footer-sociais-youtube {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 12rem;
+		    margin-left: 12rem;
+		}    
+		.footer-mapa {
+			width: 100%;
+			margin-top: 22rem;
+		}
+
+}
+
+	@media (max-width: 320px) {
+		nav {
+			padding: 2.2rem 0 0 0;
+
+		}
+		.navegacao {
+			font-size: 9px;
+		}
+
+		.conteudo-banner {
+			padding: 0.2rem;
+		}
+
+		.video-iphone iframe {
+		    position: absolute;
+		    padding-left: 0;
+		    width: 179px;
+		    height: 91px;
+		    margin-left: 5.5rem;
+		    margin-top: 0.4rem;
+		    border-radius: 5%;
+		}
+
+		.footer-sociais-face {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 4rem;
+		    margin-left: 16rem;
+		}
+		.footer-sociais-google {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 4rem;
+		    margin-left: 8rem;
+		}
+		.footer-sociais-twitter {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 12rem;
+		    margin-left: 16rem;
+		}
+		.footer-sociais-youtube {
+		    width: 100%;
+		    position: absolute;
+		    margin-top: 12rem;
+		    margin-left: 8rem;
+		}    
+
+}			
