@@ -1,0 +1,42 @@
+section {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+section#sobre {
+    background-color: #f2f1f1;
+}
+
+input,
+textarea {
+    margin-bottom: 1rem;
+}
+
+.card {
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+.logo img {
+    width: 50%;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.nav {
+    padding-top: 3rem;
+}
+
+.nav a {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.nav a:hover {
+    background-color: rgb(178, 9, 9);
+    color: white;
+    border-radius: 0.5rem;
+}
