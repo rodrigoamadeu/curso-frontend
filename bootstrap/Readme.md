@@ -77,7 +77,7 @@ html {
 .botao:visited { ... }
 
 </style>
-...
+```
 
 ## Componentes
 - Blocos / Modelos / Templates reutilizáveis
@@ -89,3 +89,15 @@ https://getbootstrap.com/docs/5.1/components
 - Incrementos
 - Ajustes
 https://getbootstrap.com/docs/5.1/helpers
+
+
+# Font Awesome
+- Biblioteca de ícones
+https://fontawesome.com/start
+
+
+# Exercício
+- incluir carousel na home antes de sobre
+- completar o cadastro, tornando os campos obrigatórios
+- incluir campos: bairro, complemento e telefone
+

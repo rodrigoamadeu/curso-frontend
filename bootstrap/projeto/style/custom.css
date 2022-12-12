@@ -3,8 +3,13 @@ section {
     padding-top: 4rem;
 }
 
-section#sobre {
+section#sobre,  
+#sobremesas {
     background-color: #f2f1f1;
+}
+
+section#slide {
+    padding: 0;
 }
 
 input,
