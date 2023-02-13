@@ -27,7 +27,7 @@
 </html>
 ```
 
-## Exemplo Obj
+## Exemplo Objeto
 ```
 objeto = {
     html : {
@@ -58,7 +58,7 @@ objeto = {
 
 
 ### Exemplos
-Seleciona o objeto e diposinibiliza (métodos / funçõe).callback
+Seleciona o objeto e diposinibiliza (métodos / funçõe) .createElement esse é o callback
 
 - document.getElementById(id) 
 - document.getElementsByTagName('div')
@@ -66,12 +66,12 @@ Seleciona o objeto e diposinibiliza (métodos / funçõe).callback
 - parentNode.appendChild(node) // html.appendChild('body')
 - element.innerHTML 
 - element.style
-- element.setAttribute('name')
-- element.getAttribute('name')
-- element.addEventListener()
-- window.location
+- element.setAttribute('name') // define o atributo
+- element.getAttribute('name') // pega o atributo
+- element.addEventListener() // adiciona ouvinte, fica observando elemento
+- window.location  // se quiser saber a url de uma página
 - window.onload 
-- console.log()
+- console.log()  // exibe funções no console
 - window.scrollTo(x, y)
 
 ## Seletores

@@ -67,6 +67,13 @@ Else {
 
 }
 
+if (cor == "preto") {
+    meuCarro = "preto";
+} else(cor == "vermelho"){
+    meuCarro = "cinza";
+}
+
+## Else if
 * Exemplo
 
 if (cor == "preto") {
@@ -212,7 +219,7 @@ function calcularMedia( notas ) {
 
     }
 
-    media = soma / notas.length;
+    media = soma / notas.length; // ele pega todas as notas com a funcionalidade .length se tiver 1 ou 100 notas
     
     return media;
 }
